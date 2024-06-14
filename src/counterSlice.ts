@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 function dataFromLocalStorage() {
   return (
-    JSON.parse(localStorage.getItem("products") || '') || {
+    JSON.parse(localStorage.getItem("products") || "") || {
       products: [],
       Login: [],
       amount: 0,
